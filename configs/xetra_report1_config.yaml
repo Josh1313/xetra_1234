@@ -4,12 +4,12 @@ s3:
   secret_key: 'AWS_SECRET_ACCESS_KEY'
   src_endpoint_url: 'https://s3.eu-central-1.amazonaws.com/'
   src_bucket: 'xetra-1234'
-  trg_endpoint_url: 'https://s3.eu-central-1.amazonaws.com/'
+  trg_endpoint_url: 'https://s3.eu-north-1.amazonaws.com/'
   trg_bucket: 'josh-123456'
  
 # configuration specific to the source
 source:
-  src_first_extract_date: '2021-06-24'
+  src_first_extract_date: '2024-05-07'
   src_columns: ['ISIN', 'Mnemonic', 'Date', 'Time', 'StartPrice', 'EndPrice', 'MinPrice', 'MaxPrice', 'TradedVolume']
   src_col_date: 'Date'
   src_col_isin: 'ISIN'
